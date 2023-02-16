@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Titillium+Web:wght@300;700&display=swap');
+* {
+    cursor: none;
+}
+
+body {
+    background-color: #ebe0ce !important;
+}
+
+/* navbar */
+nav {
+    margin-bottom: 7%;
+}
+
+.navbar-brand {
+    margin-top: 25px;
+}
+
+.nav-item {
+    margin-left: 60px;
+}
+
+.nav-link {
+    color: #333;
+    font-size: 22px;
+    font-family: 'Titillium Web', sans-serif;
+
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .show>.nav-link {
+    color: orangered;
+    border-bottom: 3px solid #333;
+
+}
+
+/* main content */
+h1 {
+    color: #333;
+    font-size: 60px !important;
+    font-weight: bold;
+    margin-top: 25px;
+    font-family: 'Titillium Web', sans-serif;
+    text-transform: uppercase;
+}
+
+h1 span {
+    color: red;
+}
+
+p {
+    font-size: 20px;
+    margin-top: 25px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.btn-primary{
+    color: whitesmoke;
+    background-color: orangered;
+    border: none;
+    stroke: 2px solid black;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+    transition: all;
+    
+
+}
+
+.btn-primary:hover{
+    color: whitesmoke;
+    background-color: #333;
+    border: none;
+    stroke: 2px solid black;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+    transition: 3ms;
+
+}
+
+
+
+#ramen-img {
+    width: 100%;
+    margin-top: -100px ;
+}
+
+
+/* footer */
+#social > li a {
+    color: orangered;
+    text-transform: capitalize;
+    margin-right: 80px;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+}
+
+#space {
+    border: 1.5px solid orangered;
+    padding: auto;
+    margin-top: 15px;
+}
+
+
+/* MEDIA QUERY */
+
+/* tel */
+@media only screen and (min-width: 761px) and (max-width: 1200px) {
+    .nav-item {
+        margin-left: 0;
+    }
+    
+    #ramen-img {
+        width: 150px;
+        height: 150px;
+        margin-top: 150px ;
+    }
+}
+
+
+/* tablette */
+@media only screen and (min-width: 1201px) and (max-width: 1600px) {
+    
+}
+
+
+/* PC */
+@media only screen and (min-width: 1601px) {
+
+    
+}
