@@ -1,4 +1,4 @@
-# dribbble_japan-website
+# dribbble_japanese-restaurant
 Dribbble entrainement | Design ➙ Japanese Restaurant Hero Section   🔗 [link](https://dribbble.com/shots/15132015-Japanese-Restaurant-Hero-Section-Concept)
 
 *(Site non responsive)*
